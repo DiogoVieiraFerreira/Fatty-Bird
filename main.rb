@@ -1,5 +1,6 @@
 require 'gosu'
 require 'pp'
+require_relative 'utils'
 
 class Game < Gosu::Window 
     def initialize
